@@ -2,7 +2,9 @@ from aiogram import Bot, Dispatcher, executor, types
 
 admin_id = 890570136
 token = "TOKEN_TG_BOT"
-
+#Для отправки сообщения пользователю используйте команду 
+#/msg user_id message message message
+#/msg 890570136 Привет, как дела? Чем занимаешься?
 
 bot = Bot(token=token, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
